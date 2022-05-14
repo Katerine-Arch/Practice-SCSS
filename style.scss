@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.header {
+    height: 100px;
+    background-color: #eee;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 50px 0;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    height: 100px;
+    background-color: #ccc;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content__item {
+    width: 400px;
+    height: 250px;
+    border: 1px solid #000;
+}
